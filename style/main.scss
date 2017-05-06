@@ -1,0 +1,26 @@
+$color : #ddd;
+
+.container-fluid {
+  margin-top: 50px;
+}
+
+.row:nth-child(odd) {
+  background: #ccc;
+}
+
+.row:nth-child(even) {
+  background: #eee;
+}
+
+.content-block {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+
+
+
+
+.content {
+  background: $color;
+  margin-top: 50px;
+}

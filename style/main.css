@@ -1,0 +1,18 @@
+.container-fluid {
+  margin-top: 50px; }
+
+.row:nth-child(odd) {
+  background: #ccc; }
+
+.row:nth-child(even) {
+  background: #eee; }
+
+.content-block {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px; }
+
+.content {
+  background: #ddd;
+  margin-top: 50px; }
+
+/*# sourceMappingURL=main.css.map */
