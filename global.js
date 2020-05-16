@@ -3,5 +3,6 @@
 function initPage() {
     createBarChart();
     createLineChart();
-    //loadConnect4()
+    loadConnect4();
+    loadTicTacToe();
 }
