@@ -24,7 +24,7 @@ a
 # Introduction
 In this project we try to develop an AI for a physically based racing game. The game is developed in Unity using deep learning.
 [About us](/about)
-[Board game project](/boardGameAi)
+[Board game project 2](/boardgame)
 [Test](/test)
 
 We want to train an AI using deep learning and neural networks. We have the following goals for the AI:

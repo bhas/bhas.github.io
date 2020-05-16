@@ -1,6 +1,7 @@
 ---
 layout: default
-title: D3.js Bar Chart using YAML and Jekyll
+title: Board game project
+permalink: /boardgame
 ---
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
