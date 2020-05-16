@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Page Title</title>
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="Charts/barChart.js"></script>
+    <script src="Charts/lineChart.js"></script>
+    <script src="global.js"></script>
 </head>
-<body>
+
+<body onload="initPage()">
+
 
 <a href="/about">Check out this nice page</a>
 <h1>This is a Heading</h1>
 <p>This is a paragraph.</p>
+<svg id="barChartSvg"></svg>
+<svg id="lineChartSvg"></svg>
+
 <iframe style="overflow: hidden" src="Tic-Tac-Toe/index.html" width="800px" height="600px"></iframe>
 <iframe style="margin-top: 200px" src="Connect-4/index.html" width="800px" height="600px"></iframe>
+
+
 </body>
 </html>

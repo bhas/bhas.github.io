@@ -1,0 +1,6 @@
+
+
+function initPage() {
+    createBarChart();
+    createLineChart();
+}
