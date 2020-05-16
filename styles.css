@@ -1,10 +1,10 @@
 .bar {
-    fill: #eac708;
+    fill: #e3941d;
 }
 
 .line {
     fill: none;
-    stroke: #eac708;
+    stroke: #e3941d;
     stroke-width: 3px;
 }
 
@@ -16,7 +16,7 @@
     fill: #eee;
 }
 
-.tick .domain {
+.domain {
     stroke: #eee;
 }
 
