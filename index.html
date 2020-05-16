@@ -2,12 +2,29 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Page Title</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--Charts-->
     <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="Charts/barChart.js"></script>
     <script src="Charts/lineChart.js"></script>
+    <!--Unity-->
+    <link rel="shortcut icon" href="Unity/Common/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="Unity/Common/TemplateData/style.css">
+    <script src="Unity/Common/TemplateData/UnityProgress.js"></script>
+    <script src="Unity/Connect-4/Build/UnityLoader.js"></script>
+    <script src="Unity/Connect-4/connect-4.js"></script>
+    <!--Global-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="global.js"></script>
+
+    <script src="Unity/Tic-Tac-Toe/TemplateData/UnityProgress.js"></script>
+    <script src="Unity/Tic-Tac-Toe/Build/UnityLoader.js"></script>
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Test build.json", {onProgress: UnityProgress});
+    </script>
+
 </head>
 
 <body onload="initPage()">
@@ -20,9 +37,10 @@
 <svg id="barChartSvg"></svg>
 <svg id="lineChartSvg"></svg>
 
-<iframe style="overflow: hidden" src="Tic-Tac-Toe/index.html" width="800px" height="600px"></iframe>
-<iframe style="margin-top: 200px" src="Connect-4/index.html" width="800px" height="600px"></iframe>
+<div id="connect4Container" style="width: 600px; height: 400px"></div>
 
+<!--<iframe style="overflow: hidden" src="Unity/Tic-Tac-Toe/index.html" width="800px" height="600px"></iframe>-->
+<div id="unityContainer" style="width: 960px; height: 600px"></div>
 
 </body>
 </html>
