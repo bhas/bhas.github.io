@@ -9,3 +9,6 @@ title: D3.js Bar Chart using YAML and Jekyll
 <div id="chart"></div>
 <p>The YAML can be found in <a href="https://github.com/kinlane/d3-js-using-yaml-jekyll/tree/gh-pages/_data" target="_blank">_data/bar-chart.yaml</a>, but is transformed into the JSON needed for this chart, using <a href="https://github.com/kinlane/d3-js-using-yaml-jekyll/blob/gh-pages/data/bar-chart.json" target="_blank">/data/bar-chart.json</a>, demonstrating how YAML can be used to drive visualizations on Github.</p>
 <script src="Charts/barChart.js"></script>
+<script>
+createBarChart();
+</script>
