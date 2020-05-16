@@ -3,9 +3,9 @@
 
 function createBarChart() {
     // set the dimensions and margins of the graph
-    var margin = {top: 20, right: 20, bottom: 30, left: 40},
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+    var padding = {top: 20, right: 20, bottom: 30, left: 40},
+        width = 630 - padding.left - padding.right,
+        height = 450 - padding.top - padding.bottom;
 
 // set the ranges
     var x = d3.scaleBand()
@@ -18,11 +18,11 @@ function createBarChart() {
 // append a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
     var svg = d3.select("#barChartSvg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
+        .attr("width", width + padding.left + padding.right)
+        .attr("height", height + padding.top + padding.bottom)
         .append("g")
         .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
+            "translate(" + padding.left + "," + padding.top + ")");
 
 // get the data
     d3.csv("sales.csv", function(error, data) {

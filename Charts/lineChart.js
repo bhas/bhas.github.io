@@ -3,9 +3,9 @@
 
 function createLineChart() {
     // set the dimensions and margins of the graph
-    var margin = {top: 20, right: 20, bottom: 30, left: 50},
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+    var padding = {top: 20, right: 20, bottom: 30, left: 50},
+        width = 630 - padding.left - padding.right,
+        height = 450 - padding.top - padding.bottom;
 
 // parse the date / time
     var parseTime = d3.timeParse("%d-%b-%y");
@@ -23,11 +23,9 @@ function createLineChart() {
 // appends a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
     var svg = d3.select("#lineChartSvg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
+            "translate(" + padding.left + "," + padding.top + ")");
 
 // Get the data
     d3.csv("data.csv", function(error, data) {

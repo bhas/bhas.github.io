@@ -24,7 +24,7 @@ a
 # Introduction
 In this project we try to develop an AI for a physically based racing game. The game is developed in Unity using deep learning.
 [About us](/about)
-[Board game project 2](/boardgame)
+[Board game project](/boardgame)
 [Test](/test)
 
 We want to train an AI using deep learning and neural networks. We have the following goals for the AI:
@@ -34,31 +34,13 @@ We want to train an AI using deep learning and neural networks. We have the foll
 4. Learn  
 
 # Prototype #1
+<svg id="barChartSvg" class="media"></svg>
+<svg id="lineChartSvg" class="media"></svg>
 
-
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<svg id="barChartSvg"></svg>
-<svg id="lineChartSvg"></svg>
-
-<div id="connect4Container" style="width: 600px; height: 400px"></div>
-<div id="ticTacToeContainer" style="width: 600px; height: 400px"></div>
+<div id="connect4Container" class="media"></div>
+<div id="ticTacToeContainer" class="media"></div>
 
 # Prototype #2
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<svg id="barChartSvg"></svg>
-<svg id="lineChartSvg"></svg>
-
-<div id="connect4Container" style="width: 600px; height: 400px"></div>
-<div id="ticTacToeContainer" style="width: 600px; height: 400px"></div>
+random test
 
 # Prototype #3
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<svg id="barChartSvg"></svg>
-<svg id="lineChartSvg"></svg>
-
-<div id="connect4Container" style="width: 600px; height: 400px"></div>
-<div id="ticTacToeContainer" style="width: 600px; height: 400px"></div>

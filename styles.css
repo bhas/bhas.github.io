@@ -7,3 +7,9 @@
     stroke: steelblue;
     stroke-width: 2px;
 }
+
+.media {
+    margin: 30px 10px;
+    width: 630px;
+    height: 450px;
+}

@@ -26,10 +26,10 @@ In this project we implemented the two classic games: Tic-Tac-Toe and Connect-4.
 ## Goals
 
 # Tic-Tac-Toe
-<div id="ticTacToeContainer" style="width: 600px; height: 400px"></div>
+<div id="ticTacToeContainer" class="media"></div>
 
 # Connect-4
-<div id="connect4Container" style="width: 600px; height: 400px"></div>
+<div id="connect4Container" class="media"></div>
 
 # What did we learn?
 
