@@ -1,11 +1,23 @@
 .bar {
-    fill: steelblue;
+    fill: #eac708;
 }
 
 .line {
     fill: none;
-    stroke: steelblue;
-    stroke-width: 2px;
+    stroke: #eac708;
+    stroke-width: 3px;
+}
+
+.tick line {
+    stroke: #eee;
+}
+
+.tick text {
+    fill: #eee;
+}
+
+.tick .domain {
+    stroke: #eee;
 }
 
 .media {
