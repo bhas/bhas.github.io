@@ -7,3 +7,7 @@ function loadConnect4() {
 function loadTicTacToe() {
     var unityInstance = UnityLoader.instantiate("ticTacToeContainer", "Unity/Tic-Tac-Toe/Build/Test build.json", {onProgress: UnityProgress});
 }
+
+function loadCarAi() {
+    var unityInstance = UnityLoader.instantiate("carAiContainer", "Unity//Car AI/Build/Car AI Build.json", {onProgress: UnityProgress});
+}

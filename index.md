@@ -25,6 +25,7 @@ a
 In this project we try to develop an AI for a physically based racing game. The game is developed in Unity using deep learning.
 [About us](/about)
 [Board game project](/boardgame)
+[Car AI project](/carAi)
 [Test](/test)
 
 We want to train an AI using deep learning and neural networks. We have the following goals for the AI:
@@ -39,6 +40,7 @@ We want to train an AI using deep learning and neural networks. We have the foll
 
 <div id="connect4Container" class="media"></div>
 <div id="ticTacToeContainer" class="media"></div>
+<div id="carAiContainer" class="media"></div>
 
 # Prototype #2
 random test
