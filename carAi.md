@@ -4,6 +4,9 @@ title: Board game project
 permalink: /carAi
 ---
 
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="Charts/barChart.js"></script>
+<script src="Charts/lineChart.js"></script>
 
 <!--Unity-->
 <link rel="shortcut icon" href="Unity/Shared/favicon.ico">
