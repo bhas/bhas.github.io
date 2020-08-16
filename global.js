@@ -5,4 +5,5 @@ window.onload = function() {
     createLineChart();
     loadConnect4();
     loadTicTacToe();
+    loadCarAi();
 };

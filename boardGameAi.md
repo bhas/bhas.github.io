@@ -18,7 +18,7 @@ permalink: /boardgame
 <!--Global-->
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script src="global.js"></script>
-a
+
 
 # Introduction
 In this project we implemented the two classic games: Tic-Tac-Toe and Connect-4. The goal was mainly to become familiar using Unity and to make a simple AI you can play against.

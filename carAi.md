@@ -1,12 +1,9 @@
 ---
 layout: default
 title: Board game project
-permalink: /carAiGame
+permalink: /carAi
 ---
 
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="Charts/barChart.js"></script>
-<script src="Charts/lineChart.js"></script>
 
 <!--Unity-->
 <link rel="shortcut icon" href="Unity/Shared/favicon.ico">
@@ -18,16 +15,9 @@ permalink: /carAiGame
 <!--Global-->
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script src="global.js"></script>
-a
 
-# Introduction
-In this project we implemented the two classic games: Tic-Tac-Toe and Connect-4. The goal was mainly to become familiar using Unity and to make a simple AI you can play against.
-
-## Goals
 
 # car Ai
 <div id="carAiContainer" class="media"></div>
-
-# What did we learn?
 
 
