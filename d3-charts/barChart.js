@@ -25,7 +25,7 @@ function createBarChart() {
             "translate(" + padding.left + "," + padding.top + ")");
 
 // get the data
-    d3.csv("sales.csv", function(error, data) {
+    d3.csv("d3-charts/sales.csv", function(error, data) {
         if (error) throw error;
 
         // format the data

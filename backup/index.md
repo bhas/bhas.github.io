@@ -15,7 +15,7 @@ title: D3.js Bar Chart using YAML and Jekyll
 <script src="Unity/unitySceneLoader.js"></script>
 
 <!--Global-->
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="../d3-charts/d3-styles.css">
 <script src="global.js"></script>
 a
 

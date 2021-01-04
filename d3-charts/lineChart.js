@@ -28,7 +28,7 @@ function createLineChart() {
             "translate(" + padding.left + "," + padding.top + ")");
 
 // Get the data
-    d3.csv("data.csv", function(error, data) {
+    d3.csv("d3-charts/data.csv", function(error, data) {
         if (error) throw error;
 
         // format the data
