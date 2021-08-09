@@ -9,14 +9,14 @@ body {
 	font-family: 'Work Sans', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oleo Script Swash Caps', cursive;
+	/* font-family: 'Oleo Script Swash Caps', cursive; */
 }
 a {
 	outline: none !important;
 }
 /*-----Header & Banner Starts-------*/
 .navbar-brand {
-	font-family: 'Oleo Script Swash Caps', cursive;
+	/* font-family: 'Oleo Script Swash Caps', cursive; */
 	color: #ffffff;
 	font-size: 26px;
 }
@@ -265,11 +265,13 @@ a {
 	padding: 50px 0px;
 	width: 100%;
 	float: left;
+	background: #222;
+	color: gainsboro;
 }
 .about h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #f0a00d;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -294,7 +296,9 @@ a {
 
 /*-----Contact Starts-------*/
 .contact {
-	background-color: rgba(204, 204, 204, 0.15);
+	/* background-color: rgba(204, 204, 204, 0.15); */
+	background: #2a2a2a;
+	color: gainsboro;
 	padding: 50px 0px;
 	float: left;
 	width: 100%;
@@ -302,7 +306,7 @@ a {
 .contact h3 {
 	margin-top: 0px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #f0a00d;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -316,32 +320,33 @@ a {
 	padding: 6px 12px;
 	font-size: 14px;
 	line-height: 1.42857;
-	color: #242424;
+	color: gainsboro;
 	background-color: transparent;
 	background-image: none;
 	border: none;
 	border-radius: 0px;
 	box-shadow: none;
 	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
-	border-bottom: 2px solid #EB233C;
+	border-bottom: 2px solid #aa660d;
 	resize: none;
 	margin-top: 25px;
 }
 .form-control:hover, .form-control:focus {
 	box-shadow: none;
-	border-bottom: 2px solid #242424;
+	/* border-bottom: 2px solid #f0a00d; */
+	border-bottom: 2px solid #f0a00d;
 }
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-color: #242424 !important;
+color: rgb(179, 179, 179) !important;
 }
  input:-moz-placeholder, textarea:-moz-placeholder { /* Firefox 18- */
-color: #242424 !important;
+color: rgb(179, 179, 179) !important;
 }
  input::-moz-placeholder, textarea::-moz-placeholder {  /* Firefox 19+ */
-color: #242424 !important;
+color: rgb(179, 179, 179) !important;
 }
  input:-ms-input-placeholder, textarea:-ms-input-placeholder {
-color: #242424 !important;
+color: rgb(179, 179, 179) !important;
 }
 .contact-button {
 	border: none;
@@ -351,15 +356,15 @@ color: #242424 !important;
 	display: inline-block;
 	border-radius: 25px 25px 25px 25px;
 	font-size: 15px;
-	background-color: #EB233C;
+	background-color: #f0a00d;
 	margin-top: 30px;
 }
 .address {
-	color: #242424;
+	/* color: #242424; */
 	margin-top: 70px;
 }
 .address h4 {
-	color: #EB233C;
+	color: #f0a00d;
 	font-size: 22px;
 }
 .address p {
@@ -367,7 +372,7 @@ color: #242424 !important;
 	font-weight: 500;
 }
 .email i {
-	color: #EB233C;
+	color: #f0a00d;
 	padding-right: 10px;
 	font-weight: 400;
 	font-size: 16px;
